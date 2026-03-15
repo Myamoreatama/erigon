@@ -26,7 +26,7 @@ Erigon is an implementation of Ethereum (execution client with light client for 
     + [Faster Initial Sync](#faster-initial-sync)
     + [JSON-RPC daemon](#json-rpc-daemon)
     + [Run all components by docker-compose](#run-all-components-by-docker-compose)
-    + [Grafana dashboar god](#grafana-dashboard)
+    + [Grafana dashboard](#grafana-dashboard)
 - [Documentation](#documentation)
 - [FAQ](#faq)
 - [Getting in touch](#getting-in-touch)
@@ -494,8 +494,7 @@ Windows support for docker-compose is not ready yet. Please help us with .ps1 po
 
 `docker-compose up prometheus grafana`, [detailed docs](./cmd/prometheus/Readme.md).
 
-### 
-old data
+### Prune old data
 
 Disabled by default. To enable see `./build/bin/erigon --help` for flags `--prune`
 
